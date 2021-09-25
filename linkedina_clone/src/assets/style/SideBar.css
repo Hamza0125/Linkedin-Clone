@@ -1,0 +1,83 @@
+.SideBar_main{
+    flex: 0.35;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.sidebar_recent{
+    background-color: white;
+    border-radius: 5px ;
+    margin-top: 07px;
+}
+.sidebar_recent>h5{
+    margin-left: 15px;
+}
+.pakistan{
+    margin: 15px 20px 20px 15px;
+}
+.pakistan:hover{
+    cursor: pointer;
+    background-color:#f2f1ee ;
+}
+
+.sidebar_left{
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 0.1px solid #dfdedf;
+}
+.sidebar_left>img{
+    object-fit: contain;
+    width: 100%;
+    margin-bottom: -25px;
+}
+.sidebar_left > h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.sidebar_left > p{
+    font-size: 12px;
+    border-bottom:0.1px solid #dfdedf;
+}
+.sidebar_left .email{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.number_stats{
+    font-size: 14px;
+    font-weight: 500;
+    color: #286ddb;
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.sidebar_left_stats > p{
+    font-size: 14px;
+}
+.sidebar_left_stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 07px;
+}
+.sidebar_left_stats:hover{
+    cursor: pointer;
+    background-color: #f2f1ee;
+}
+.sidebar_recent>div>p{
+    color: rgb(0, 132, 255);
+    font-weight: 500;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+.sidebar_recent>div>p:hover{
+    cursor: pointer;
+    text-decoration: underline rgb(0, 132, 255) ;
+}
