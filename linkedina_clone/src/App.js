@@ -17,6 +17,7 @@ function App() {
      <div className="display_feed">
        <Feeds />
      </div>
+     
      </div>
 
      

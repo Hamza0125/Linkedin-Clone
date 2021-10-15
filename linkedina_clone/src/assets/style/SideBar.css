@@ -1,7 +1,6 @@
 .SideBar_main{
     flex: 0.35;
     margin-left: 10%;
-    margin-top: 20px;
 }
 .sidebar_recent{
     background-color: white;
@@ -22,19 +21,20 @@
 .sidebar_left{
     flex: 0.2;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 08px;
     text-align: center;
     border: 0.1px solid #dfdedf;
 }
 .sidebar_left>img{
     object-fit: contain;
+    border-radius: 08px;
     width: 100%;
     margin-bottom: -25px;
 }
 .sidebar_left > h4{
     font-size: 22px;
     margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .sidebar_left > p{
     font-size: 12px;
