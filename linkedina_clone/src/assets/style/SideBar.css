@@ -27,7 +27,8 @@
 }
 .sidebar_left>img{
     object-fit: contain;
-    border-radius: 08px;
+    border-top-left-radius: 08px;
+    border-top-right-radius: 8px;
     width: 100%;
     margin-bottom: -25px;
 }
